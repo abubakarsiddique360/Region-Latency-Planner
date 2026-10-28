@@ -1,0 +1,96 @@
+{
+  "problem": "global-web-frontend",
+  "k1": [
+    "eu-west-1"
+  ],
+  "k2_best": {
+    "regions": [
+      "ap-south-1",
+      "us-east-1"
+    ],
+    "mean_rtt": 63.75
+  },
+  "k2_greedy": {
+    "regions": [
+      "ap-south-1",
+      "eu-west-1"
+    ],
+    "mean_rtt": 73.65
+  },
+  "k2_repaired": {
+    "regions": [
+      "ap-south-1",
+      "us-east-1"
+    ],
+    "mean_rtt": 63.75
+  },
+  "budget_130": {
+    "regions": [
+      "eu-west-1"
+    ],
+    "cost": 110.0,
+    "mean_rtt": 128.4
+  },
+  "sweep": [
+    {
+      "k": 1,
+      "regions": [
+        "eu-west-1"
+      ],
+      "mean_rtt": 128.4,
+      "p95_rtt": 265.0,
+      "within_target": 0.4,
+      "cost": 110.0
+    },
+    {
+      "k": 2,
+      "regions": [
+        "ap-south-1",
+        "us-east-1"
+      ],
+      "mean_rtt": 63.75,
+      "p95_rtt": 120.0,
+      "within_target": 0.7,
+      "cost": 170.0
+    },
+    {
+      "k": 3,
+      "regions": [
+        "ap-south-1",
+        "eu-west-1",
+        "sa-east-1"
+      ],
+      "mean_rtt": 46.95,
+      "p95_rtt": 120.0,
+      "within_target": 0.85,
+      "cost": 310.0
+    },
+    {
+      "k": 4,
+      "regions": [
+        "ap-south-1",
+        "eu-west-1",
+        "sa-east-1",
+        "us-east-1"
+      ],
+      "mean_rtt": 32.95,
+      "p95_rtt": 120.0,
+      "within_target": 0.85,
+      "cost": 410.0
+    },
+    {
+      "k": 5,
+      "regions": [
+        "ap-south-1",
+        "eu-west-1",
+        "sa-east-1",
+        "us-east-1",
+        "us-west-2"
+      ],
+      "mean_rtt": 32.95,
+      "p95_rtt": 120.0,
+      "within_target": 0.85,
+      "cost": 500.0
+    }
+  ]
+}

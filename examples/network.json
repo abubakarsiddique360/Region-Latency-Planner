@@ -1,0 +1,43 @@
+{
+  "name": "global-web-frontend",
+  "target_ms": 100,
+  "regions": [
+    { "name": "us-east-1", "cost": 100 },
+    { "name": "us-west-2", "cost": 90 },
+    { "name": "eu-west-1", "cost": 110 },
+    { "name": "ap-south-1", "cost": 70 },
+    { "name": "sa-east-1", "cost": 130 }
+  ],
+  "clients": [
+    {
+      "name": "Virginia",
+      "weight": 0.2,
+      "rtt": { "us-east-1": 8, "us-west-2": 62, "eu-west-1": 78, "ap-south-1": 190, "sa-east-1": 120 }
+    },
+    {
+      "name": "Frankfurt",
+      "weight": 0.2,
+      "rtt": { "us-east-1": 82, "us-west-2": 145, "eu-west-1": 9, "ap-south-1": 125, "sa-east-1": 190 }
+    },
+    {
+      "name": "Singapore",
+      "weight": 0.15,
+      "rtt": { "us-east-1": 235, "us-west-2": 175, "eu-west-1": 165, "ap-south-1": 55, "sa-east-1": 320 }
+    },
+    {
+      "name": "Sydney",
+      "weight": 0.15,
+      "rtt": { "us-east-1": 205, "us-west-2": 165, "eu-west-1": 265, "ap-south-1": 120, "sa-east-1": 300 }
+    },
+    {
+      "name": "SaoPaulo",
+      "weight": 0.15,
+      "rtt": { "us-east-1": 120, "us-west-2": 165, "eu-west-1": 190, "ap-south-1": 330, "sa-east-1": 12 }
+    },
+    {
+      "name": "Mumbai",
+      "weight": 0.15,
+      "rtt": { "us-east-1": 195, "us-west-2": 240, "eu-west-1": 120, "ap-south-1": 10, "sa-east-1": 320 }
+    }
+  ]
+}
